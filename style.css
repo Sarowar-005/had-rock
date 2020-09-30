@@ -1,0 +1,81 @@
+body{
+    background-color: #01004c;
+    color: #ffffff;
+    background-image: url(images/bg-image2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+#page-title{
+    font-family:'Patrick Hand', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 40px;
+
+}
+.form-control{
+    background-color:white;
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.song-list li{
+    list-style: none;
+    margin-top: 5px;
+    padding-bottom: 17px;
+    border-bottom:1px solid rgb(123 122 169);
+}
+.song-list li strong{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.song-list li span{
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.song-list li button{
+    color: #fff;
+    background-color: #5c2e4fbd;
+    border-color: #fbb147;
+    float: right;
+}
+.song-list li button:hover{
+    background-color: #5c284dbd;
+    border-color: #fbb147;
+    color: white;
+}
+#lyrics{
+    margin-top: 30px;
+}
+#lyrics h2{
+    margin:20px 0px;
+    text-decoration: underline;
+}
+#lyrics span{
+    display: flex;
+    justify-content: center;
+}
